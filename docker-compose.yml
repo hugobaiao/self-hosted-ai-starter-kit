@@ -5,7 +5,7 @@ volumes:
   qdrant_storage:
 
 networks:
-  demo:
+  demo: 
 
 x-n8n: &service-n8n
   image: n8nio/n8n:latest
